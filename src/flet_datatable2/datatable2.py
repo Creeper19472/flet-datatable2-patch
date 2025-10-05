@@ -101,7 +101,7 @@ class DataTable2(ft.DataTable):
     Overrides theme of checkboxes in each data row.
     """
 
-    sort_arrow_icon: ft.IconValue = ft.Icons.ARROW_UPWARD
+    sort_arrow_icon = ft.Icons.ARROW_UPWARD
     """
     Icon shown when sorting is applied.
     """
